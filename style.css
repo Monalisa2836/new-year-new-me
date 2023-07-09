@@ -25,31 +25,69 @@ button {
   font-weight: 600;
   line-height: normal;
 }
-.header{
-    background: url("images/banner/banner1.png");
-    background-repeat: no-repeat;
+.header {
+  background: url("images/banner/banner1.png");
+  background-repeat: no-repeat;
 }
-.first-sec{
-    display: flex;
-    justify-content: space-between;
-    text-align: justify;
-    padding: 0;
-    align-items: center;
+.first-sec {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  padding: 0;
+  align-items: center;
 }
-.failure-content{
-    margin: 200px 322px 100px 200px;
+.failure-content {
+  margin: 200px 322px 100px 200px;
 }
 .failure-content li {
-    list-style: none;
+  list-style: none;
 }
 .failure-content li:before {
-    content: '✓';
-    color: #16D887;
-    margin-right: 5px;
-  }
-.failure-description[
-    color: #444343;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-]
+  content: "✓";
+  color: #16d887;
+  margin-right: 5px;
+}
+.failure-title {
+  color: #151414;
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+.failure-description {
+  color: #444343;
+  font-size: 14px;
+  line-height: 26px;
+}
+.li-content {
+  color: #444343;
+  font-size: 12px;
+  line-height: 26px;
+}
+.second-sec-title {
+  text-align: center;
+  color: #151414;
+  font-size: 40px;
+}
+.whole-plan-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+.icon {
+  width: 92.958px;
+  height: 92.958px;
+}
+.plan-title {
+  color: #151414;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+}
+.plan-des {
+  color: #737272;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
