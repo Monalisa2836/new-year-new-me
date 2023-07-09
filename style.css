@@ -119,3 +119,25 @@ button {
   width: 1000px;
   height: 300px;
 }
+.finish-sec {
+  display: flex;
+  justify-content: space-around;
+  background: #151414;
+  color: white;
+  padding: 130px 100px;
+}
+.contact input {
+  display: block;
+  margin-bottom: 20px;
+  padding: 21px 158px 21px 22px;
+  border: 1px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: #151414;
+  margin-right: 45px;
+}
+.last-btn {
+  color: #f15b22;
+  font-size: 10px;
+  font-weight: 600;
+}
