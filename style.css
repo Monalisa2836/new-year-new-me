@@ -91,3 +91,31 @@ button {
   font-size: 14px;
   font-weight: 500;
 }
+.positive-title {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 30px;
+  padding-bottom: 0;
+}
+.call {
+  color: #f15b22;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: white;
+  margin: 30px;
+  margin-top: 0;
+  padding: 15px 25px;
+}
+.third-sec {
+  background-image: linear-gradient(90deg, #e76836 0%, rgba(241, 91, 34, 0)),
+    url("images/watch.png");
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  margin: 100px 230px;
+  width: 1000px;
+  height: 300px;
+}
