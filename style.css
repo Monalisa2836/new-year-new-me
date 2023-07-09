@@ -3,7 +3,7 @@ body {
 }
 .banner {
   text-align: right;
-  padding: 216px 220px 845px 186px;
+  padding: 216px 220px 200px 186px;
 }
 .banner-title {
   color: #151414;
@@ -29,3 +29,27 @@ button {
     background: url("images/banner/banner1.png");
     background-repeat: no-repeat;
 }
+.first-sec{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 0;
+    align-items: center;
+}
+.failure-content{
+    margin: 200px 322px 100px 200px;
+}
+.failure-content li {
+    list-style: none;
+}
+.failure-content li:before {
+    content: '✓';
+    color: #16D887;
+    margin-right: 5px;
+  }
+.failure-description[
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+]
